@@ -1,0 +1,27 @@
+# ---- MATLAB ----
+*.asv
+*.autosave
+*.m~
+slprj/
+*.slxc
+*.mlappinstall
+*.mltbx
+
+# ---- Generated outputs / large binaries ----
+output/
+*.stl
+*.step
+*.stp
+
+# small, curated sample model that ships with the demo
+!models/durga_anamorphic_demo.stl
+
+# ---- JVM crash logs (from native OOM during triangulation/stlwrite) ----
+hs_err_pid*.log
+replay_pid*.log
+
+# ---- OS / editor ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
